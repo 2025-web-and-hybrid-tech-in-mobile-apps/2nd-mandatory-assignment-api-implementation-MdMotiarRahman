@@ -1,10 +1,11 @@
 {
   "name": "highscore-api-implementation-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3eYzQnXH) # API Implementation Exercise - Game High Scores",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,10 +15,14 @@
     "chai": "^4.4.1",
     "chai-http": "^4.4.0",
     "chai-json-schema-ajv": "^5.2.4",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mocha": "^10.3.0",
     "passport": "^0.7.0",
     "passport-jwt": "^4.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
